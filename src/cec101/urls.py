@@ -25,7 +25,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', index),
     path('', index),
-    path('joe/', jTemplate, name="jTemplate"),
+    path('chatRoom/', jTemplate, name="jTemplate"),
     path('ray/', rayTemplate, name="rayTemplate"),
     path('abc/', abcTemplate, name="abcTemplate"),
     path('york/', yorkTemplate, name="yorkTemplate"),
